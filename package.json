@@ -1,0 +1,20 @@
+{
+  "name": "correla-lambda",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "author": "David Hartsough",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.224.1",
+    "graphql-yoga": "^1.8.5"
+  },
+  "devDependencies": {
+    "serverless": "^1.26.1",
+    "serverless-offline": "^3.20.1"
+  },
+  "scripts": {
+    "start": "serverless offline",
+    "deploy": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
